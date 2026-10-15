@@ -1,0 +1,18 @@
+# docker stack deploy -c fabrica/stack.yml lpfab   (Docker Swarm, nó único) — imagem: docker build -t lp-matriz:<sha> .
+version: '3.8'
+services:
+  fabrica:
+    image: lp-matriz:${LPFAB_TAG:-latest}
+    environment:
+      TENANT: ${TENANT:-padrao}
+      FABRICA_TRABALHO: /tmp/fabrica
+    secrets: [SUPABASE_URL, SUPABASE_SERVICE_ROLE, OPENROUTER_API_KEY, VERCEL_TOKEN]
+    deploy:
+      replicas: 1
+      restart_policy: { condition: any, delay: 20s }
+      resources: { limits: { memory: 1200M, cpus: '1.5' } }
+secrets:
+  SUPABASE_URL: { external: true }
+  SUPABASE_SERVICE_ROLE: { external: true }
+  OPENROUTER_API_KEY: { external: true }
+  VERCEL_TOKEN: { external: true }

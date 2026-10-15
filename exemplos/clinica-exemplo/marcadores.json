@@ -1,0 +1,326 @@
+{
+"apple-touch-icon.png": [
+180,
+180
+],
+"capa-1000.avif": [
+1000,
+790
+],
+"capa-1500.avif": [
+1500,
+1184
+],
+"capa-2100.avif": [
+2100,
+1658
+],
+"capa-2400.avif": [
+2400,
+1895
+],
+"capa-movel-1000.avif": [
+1000,
+1053
+],
+"capa-movel-800.avif": [
+800,
+842
+],
+"capa-movel.jpg": [
+1000,
+1053
+],
+"capa-video-movel.avif": [
+720,
+720
+],
+"capa-video.avif": [
+1280,
+720
+],
+"capa-video.jpg": [
+1280,
+720
+],
+"capa.jpg": [
+2400,
+1895
+],
+"card-biometria-400.webp": [
+400,
+500
+],
+"card-biometria-660.webp": [
+660,
+825
+],
+"card-biometria.webp": [
+800,
+1000
+],
+"card-laser-400.webp": [
+400,
+500
+],
+"card-laser-660.webp": [
+660,
+825
+],
+"card-laser.webp": [
+800,
+1000
+],
+"card-lio-400.webp": [
+400,
+500
+],
+"card-lio-660.webp": [
+660,
+825
+],
+"card-lio.webp": [
+800,
+1000
+],
+"card-oct-400.webp": [
+400,
+500
+],
+"card-oct-660.webp": [
+660,
+825
+],
+"card-oct.webp": [
+800,
+1000
+],
+"card-pressao-400.webp": [
+400,
+500
+],
+"card-pressao-660.webp": [
+660,
+825
+],
+"card-pressao.webp": [
+800,
+1000
+],
+"card-pterigio-400.webp": [
+400,
+500
+],
+"card-pterigio-660.webp": [
+660,
+825
+],
+"card-pterigio.webp": [
+800,
+1000
+],
+"card-refrator-400.webp": [
+400,
+500
+],
+"card-refrator-660.webp": [
+660,
+825
+],
+"card-refrator.webp": [
+800,
+1000
+],
+"card-retina-400.webp": [
+400,
+500
+],
+"card-retina-660.webp": [
+660,
+825
+],
+"card-retina.webp": [
+800,
+1000
+],
+"card-topografia-400.webp": [
+400,
+500
+],
+"card-topografia-660.webp": [
+660,
+825
+],
+"card-topografia.webp": [
+800,
+1000
+],
+"espaco-consulta-1000.avif": [
+1000,
+667
+],
+"espaco-consulta-600.avif": [
+600,
+400
+],
+"espaco-consulta.jpg": [
+1000,
+667
+],
+"espaco-consultorio-1000.avif": [
+1000,
+667
+],
+"espaco-consultorio-600.avif": [
+600,
+400
+],
+"espaco-consultorio.jpg": [
+1000,
+667
+],
+"espaco-exames-complementares-1000.avif": [
+1000,
+667
+],
+"espaco-exames-complementares-600.avif": [
+600,
+400
+],
+"espaco-exames-complementares.jpg": [
+1000,
+667
+],
+"espaco-refracao-1000.avif": [
+1000,
+667
+],
+"espaco-refracao-600.avif": [
+600,
+400
+],
+"espaco-refracao.jpg": [
+1000,
+667
+],
+"espaco-sala-exames-1000.avif": [
+1000,
+667
+],
+"espaco-sala-exames-600.avif": [
+600,
+400
+],
+"espaco-sala-exames.jpg": [
+1000,
+667
+],
+"favicon-48.png": [
+48,
+48
+],
+"favicon-96.png": [
+96,
+96
+],
+"instituto-equipe-480.avif": [
+480,
+600
+],
+"instituto-equipe-600.avif": [
+600,
+750
+],
+"instituto-equipe-720.avif": [
+720,
+900
+],
+"instituto-equipe-900.avif": [
+900,
+1125
+],
+"instituto-equipe.jpg": [
+900,
+1125
+],
+"logo.png": [
+600,
+576
+],
+"medica-marisol-400.avif": [
+400,
+500
+],
+"medica-marisol-600.avif": [
+600,
+750
+],
+"medica-marisol.jpg": [
+600,
+750
+],
+"medica-teodora-400.avif": [
+400,
+500
+],
+"medica-teodora-600.avif": [
+600,
+750
+],
+"medica-teodora.jpg": [
+600,
+750
+],
+"medica-heloisa-400.avif": [
+400,
+500
+],
+"medica-heloisa-600.avif": [
+600,
+750
+],
+"medica-heloisa-retrato-480.avif": [
+480,
+600
+],
+"medica-heloisa-retrato-600.avif": [
+600,
+750
+],
+"medica-heloisa-retrato-720.avif": [
+720,
+900
+],
+"medica-heloisa-retrato-900.avif": [
+900,
+1125
+],
+"medica-heloisa-retrato.jpg": [
+900,
+1125
+],
+"medica-heloisa.jpg": [
+600,
+750
+],
+"medico-otavio-400.avif": [
+400,
+500
+],
+"medico-otavio-600.avif": [
+600,
+750
+],
+"medico-otavio.jpg": [
+600,
+750
+],
+"og-medica.jpg": [
+1200,
+630
+],
+"og.jpg": [
+1200,
+630
+]
+}

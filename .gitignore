@@ -1,0 +1,21 @@
+# saídas geradas (o motor refaz): páginas, sitemap, robots, vercel.json e o contador de versão
+exemplos/*/site/*/
+exemplos/*/site/*.xml
+exemplos/*/site/*.txt
+exemplos/*/site/vercel.json
+!exemplos/*/site/assets/
+exemplos/*/.versao
+saidas/
+# dados de execução e segredos
+.env
+*.env.local
+caderno.jsonl
+gastos-openai.jsonl
+__pycache__/
+.DS_Store
+node_modules/
+# segredos da trava: nunca versionar
+ferramentas/bloqueio.sha
+ferramentas/fronteira/ghot-focus.sha
+.env
+.githooks/pre-push

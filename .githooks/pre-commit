@@ -1,0 +1,4 @@
+#!/bin/sh
+# Trava de anonimato no commit: nenhum nome de cliente nem identificador real entra no repositório.
+# Ligar no clone: git config core.hooksPath .githooks
+exec python3 "$(git rev-parse --show-toplevel)/ferramentas/anonimato.py"

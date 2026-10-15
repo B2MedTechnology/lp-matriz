@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+{{GTM_HEAD}}
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRICAO}}">
+<meta name="robots" content="{{ROBOTS}}">
+<link rel="canonical" href="{{CANONICAL}}">
+<meta name="author" content="{{NOME}}">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="{{NOME}} — {{SITE_NOME_SUFIXO}}">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESCRICAO}}">
+<meta property="og:url" content="{{CANONICAL}}">
+<meta property="og:image" content="{{BASE}}/assets/img/{{OG_IMAGEM}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{OG_ALT}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0D1D18">
+
+<link rel="icon" href="../assets/img/favicon-48.png" sizes="48x48" type="image/png">
+<link rel="icon" href="../assets/img/favicon-96.png" sizes="96x96" type="image/png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<!-- ⚠️ PageSpeed: nenhum CSS externo aqui. O estilo vai EMBUTIDO (o gerar.py lê assets/css/estilo.css,
+     enxuga e injeta) e as fontes são locais. Sem preconnect ao serviço de avaliações: ele só é chamado
+     perto da dobra 7. -->
+<link rel="dns-prefetch" href="https://www.google.com">
+<style>{{CSS}}</style>
+
+<!-- ══════════════════ MEDIÇÃO ══════════════════
+     O pagina.js só empurra eventos para o dataLayer; quem manda para GA4 e Meta é o GTM, que entra pelo
+     GTM_HEAD/GTM_BODY do gerar.py (vazio na prévia):
+       agendar_click   (com data-origem — a dobra de onde partiu o clique)
+       clique_saida · faq_abre · avaliacoes_google · cena_video (marco 50 e 100, quando houver a cena)
+     ══════════════════════════════════════════ -->
+
+<script type="application/ld+json">{{JSONLD}}</script>
+</head>
+<body class="fundo">
+{{GTM_BODY}}
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="ico-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.67c2.2 0 4.27.86 5.82 2.42a8.2 8.2 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.19-1.150l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.260-4.38c0-4.54 3.7-8.24 8.25-8.24m-3.6 4.1c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.16 1.75 2.67 4.25 3.74.59.26 1.050.41 1.410.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18s-.23-.16-.48-.29c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.16.25-.64.8-.78.97-.15.16-.29.19-.54.06-.25-.12-1.050-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.41.09-.17.04-.31-.02-.44-.06-.12-.55-1.34-.77-1.83-.2-.48-.4-.42-.55-.42z"/></symbol>
+  <symbol id="ico-insta" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M7.5 3.2h9a4.3 4.3 0 0 1 4.3 4.3v9a4.3 4.3 0 0 1-4.3 4.3h-9a4.3 4.3 0 0 1-4.3-4.3v-9A4.3 4.3 0 0 1 7.5 3.2Z"/><circle cx="12" cy="12" r="3.8" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="ico-fone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="M6.2 3.5h3l1.5 3.8-2 1.4a11.4 11.4 0 0 0 5.6 5.6l1.4-2 3.8 1.5v3a2 2 0 0 1-2.2 2A16.6 16.6 0 0 1 4.2 5.7a2 2 0 0 1 2-2.2Z"/></symbol>
+  <symbol id="ico-estrela" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2.6 2.9 6 6.6.9-4.8 4.6 1.2 6.5-5.9-3.1-5.9 3.1 1.2-6.5L2.5 9.5l6.6-.9z"/></symbol>
+</defs></svg>
+
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ═══════════════ 0 · CABEÇALHO ═══════════════ -->
+<header class="topo" id="topo">
+  <div class="topo__env">
+    <!-- o logo OFICIAL, a versão horizontal do manual de marca (16-09), em vetor e EMBUTIDO: a cor vem do CSS —
+         branco sobre a capa escura, verde quando o cabeçalho pousa claro. Sai de ferramentas/logo-do-manual.py;
+         o nome acessível fica no link (o svg é aria-hidden). -->
+    <a class="marca" href="#" aria-label="{{NOME}}, {{ALT_SUFIXO}} — voltar ao início">
+      {{LOGO_SVG}}
+    </a>
+    <div class="topo__dir">
+      <a class="ico-link" href="{{INSTAGRAM}}" target="_blank" rel="noopener"
+         data-ir="instagram" aria-label="Instagram do {{NOME}}">
+        <svg width="20" height="20"><use href="#ico-insta"></use></svg></a>
+      <!-- aria-label: no celular o número some (fica só o ícone) e o link ficaria sem nome -->
+      <a class="ico-link ico-link--texto" href="tel:+{{TEL}}" data-ir="ligar" aria-label="Ligar para a recepção: {{TEL_FMT}}">
+        <svg width="20" height="20"><use href="#ico-fone"></use></svg>
+        <span>{{TEL_FMT}}</span></a>
+      <a class="botao botao--zap" href="{{ZAP}}" data-origem="topo" target="_blank" rel="noopener">
+        <svg width="18" height="18"><use href="#ico-zap"></use></svg>Agendar consulta</a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- troca:abertura -->
+<!-- ═══════════════ 1 · CAPA ═══════════════
+     A foto fica numa caixa à DIREITA (66% da tela) que se dissolve na cor de fundo pela esquerda — a
+     mesma geometria da cena do vídeo que vem depois (dobra 1c do Dr. Anselmo Rubim). 15-09: a dona pediu uma imagem DA
+     CLÍNICA; a recepção (2ª rodada) não agradou, e a capa virou a SALA DE EXAMES sem a médica — a lâmpada de fenda,
+     a cadeira e a parede verde (3ª rodada); o refrator, com a mão dela, cai na rampa. No celular, a caixa ocupa os
+     57% de cima e se dissolve para baixo.
+     Empilhamento SEMPRE positivo: foto 1 · névoa 2 · feixe 3 · véu 4 · texto 7. -->
+<section class="capa capa--fundo{{CAPA_CLASSE}}" id="capa">
+  <figure class="palco" id="palco">
+    <div class="capa__filme capa__filme--foto" id="filme">
+      <!-- troca:capa-midia -->
+      <!-- AVIF por largura com o JPEG de reserva. O `sizes` do desktop vai pela ALTURA quando a caixa é
+           mais estreita que a foto (1,267:1 desde 22-09 — a caixa de 66vw × 100vh só fica mais larga acima de 48:25):
+           aí a foto cobre a caixa pela altura e fica com 127vh de largura. -->
+      <picture>
+        <source media="(max-width: 900px)" type="image/avif" sizes="100vw" srcset="../assets/img/capa-movel-800.avif 800w, ../assets/img/capa-movel-1000.avif 1000w"
+                width="1000" height="1053">
+        <source media="(max-width: 900px)" srcset="../assets/img/capa-movel.jpg" width="1000" height="1053">
+        <source type="image/avif" sizes="(max-aspect-ratio: 48/25) 127vh, 66vw"
+                srcset="../assets/img/capa-1000.avif 1000w, ../assets/img/capa-1500.avif 1500w, ../assets/img/capa-2100.avif 2100w, ../assets/img/capa-2400.avif 2400w">
+        <img src="../assets/img/capa.jpg" width="2400" height="1895" fetchpriority="high" decoding="async"
+             alt="{{CAPA_ALT}}">
+      </picture>
+      <!-- /troca:capa-midia -->
+      <!-- troca:capa-evento -->
+      <!-- ══ o evento dinâmico: a névoa da catarata que o feixe da lâmpada de fenda desfaz ══
+           No carregamento, uma névoa leitosa cobre a foto e um feixe de luz a atravessa da esquerda para a
+           direita, deixando a imagem nítida para trás. Depois, o feixe volta a passar, discreto, a cada 9 s.
+           100% CSS (transform e opacity): nada de laço de JS nem de filtro animado. -->
+      <span class="nevoa" aria-hidden="true"><span class="nevoa__faixa"></span></span>
+      <span class="feixe" aria-hidden="true"></span>
+      <!-- /troca:capa-evento -->
+    </div>
+    <span class="capa__veu" aria-hidden="true"></span>
+  </figure>
+
+  <!-- bloco:capa-texto -->
+  <div class="capa__env">
+    <p class="capa__assina"><b>{{ASSINA_NOME}}</b><span>{{ASSINA_LINHA}}</span></p>
+    <h1>{{H1_HTML}}</h1>
+    <p class="lead">{{LEAD}}</p>
+    <div class="acoes">
+      <a class="botao botao--zap botao--g" href="{{ZAP}}" data-origem="capa"
+         target="_blank" rel="noopener">
+        <svg width="20" height="20"><use href="#ico-zap"></use></svg>Agendar consulta</a>
+    </div>
+    <p class="aviso-particular">
+      <b>Atendimento somente particular.</b> Sem convênio nem plano de saúde.</p>
+  </div>
+  <!-- /bloco:capa-texto -->
+</section>
+
+<!-- bloco:numeros -->
+<!-- ═══════════════ 2 · NÚMEROS ═══════════════ -->
+<section class="numeros" aria-label="Números do {{NOME}}">
+  <div class="numeros__vitrine">
+    <ul class="numeros__lista">{{NUMEROS}}</ul>
+  </div>
+</section>
+<!-- /bloco:numeros -->
+
+<!-- ═══════════════ 3 · POR QUE O INSTITUTO ═══════════════
+     A página é do INSTITUTO, não de uma médica (pedido da dona, 15-09): a foto é a equipe. Na 2ª rodada o texto
+     virou os quatro motivos da copy do site atual, melhorada (gerar.py → MOTIVOS), e os médicos desceram para
+     depois do catálogo. -->
+<section class="quem" id="quem" data-entra>
+  <div class="quem__env">
+    <figure class="quem__foto">{{QUEM_FOTO}}</figure>
+    <!-- bloco:quem-texto -->
+    <div class="quem__texto">
+      <p class="etiqueta">{{QUEM_ETIQUETA}}</p>
+      <h2>{{QUEM_HEAD}}</h2>
+      {{QUEM_BIO}}
+      <ol class="motivos">{{MOTIVOS}}</ol>
+      <a class="botao botao--zap" href="{{ZAP}}" data-origem="quem"
+         target="_blank" rel="noopener">
+        <svg width="18" height="18"><use href="#ico-zap"></use></svg>Quero uma avaliação</a>
+    </div>
+    <!-- /bloco:quem-texto -->
+  </div>
+</section>
+<!-- /troca:abertura -->
+
+<!-- ═══════════════ 4 · CATÁLOGO ═══════════════
+     ⚠️ ESTA DOBRA VEM ANTES DO "COMO FUNCIONA" DE PROPÓSITO: o filtro do convênio mora lá, e em cima ele
+     barraria a pessoa antes de ela saber o que o instituto resolve. -->
+<section class="tratamentos" id="tratamentos" data-entra>
+  <div class="tratamentos__env">
+    <p class="etiqueta">{{CATALOGO_ETIQUETA}}</p>
+    <h2>Da consulta de rotina à cirurgia de catarata e pterígio.</h2>
+    {{CARDS}}
+    <div class="tratamentos__cta">
+      <a class="botao botao--zap" href="{{ZAP}}" data-origem="tratamentos"
+         target="_blank" rel="noopener">
+        <svg width="18" height="18"><use href="#ico-zap"></use></svg>Falar sobre o meu caso</a>
+    </div>
+  </div>
+</section>
+
+<!-- troca:corpo -->
+<!-- ═══════════════ 4b · CORPO CLÍNICO ═══════════════
+     Depois do catálogo (pedido da dona, 15-09): primeiro o que o instituto trata, depois quem atende. Médico sem
+     foto vira vaga MARCADA (tracejado e silhueta) — nunca foto de banco fingindo ser médico da casa. -->
+<section class="corpo" id="corpo-clinico" data-entra>
+  <div class="corpo__env">
+    <div class="corpo__cabeca">
+      <p class="etiqueta">Corpo clínico</p>
+      <h2>{{CORPO_HEAD}}</h2>
+      <p class="corpo__lead">{{CORPO_LEAD}}</p>
+    </div>
+    <ul class="medicos">{{CORPO_HTML}}</ul>
+    <div class="corpo__cta">
+      <a class="botao botao--zap" href="{{ZAP}}" data-origem="corpo" target="_blank" rel="noopener">
+        <svg width="18" height="18"><use href="#ico-zap"></use></svg>Agendar consulta</a>
+    </div>
+  </div>
+</section>
+<!-- /troca:corpo -->
+
+<!-- ═══════════════ 5 · COMO FUNCIONA (o filtro) ═══════════════ -->
+<section class="consulta" id="consulta">
+  <div class="consulta__env">
+    <div class="consulta__cabeca">
+      <p class="etiqueta">Como funciona</p>
+      <h2>{{CONSULTA_HEAD}}</h2>
+    </div>
+    <ol class="passos">{{PASSOS}}</ol>
+  </div>
+</section>
+
+<!-- ═══════════════ 6 · O ESPAÇO ═══════════════
+     A copy do site atual ao lado do carrossel (pedido da dona, 15-09): o texto à esquerda, na coluna da página, e as
+     fotos sangrando até a borda direita. No celular, o texto vem antes e o carrossel ocupa a largura. 4ª rodada: as
+     fotos passam em LAÇO contínuo, menores e encostadas (pedido da dona). -->
+<section class="sala" id="sala">
+  <div class="sala__env">
+    <div class="sala__texto">
+      <p class="etiqueta">A clínica</p>
+      <h2>{{SALA_HEAD}}</h2>
+      <p>{{SALA_TEXTO}}</p>
+      <a class="botao botao--zap" href="{{ZAP}}" data-origem="sala"
+         target="_blank" rel="noopener">
+        <svg width="18" height="18"><use href="#ico-zap"></use></svg>Quero uma avaliação</a>
+    </div>
+    <div class="sala__fotos">
+      <!-- a lista sai DUPLICADA do gerar.py e o trilho anda -50%, como a faixa dos números; para no hover e fora da
+           tela; com movimento reduzido fica parada, sem a cópia, e rola no dedo -->
+      <div class="carrossel" id="carrossel"><div class="carrossel__trilho">{{ESPACO}}</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ 7 · AVALIAÇÕES DO GOOGLE ═══════════════
+     Padrão de toda LP (§6b). A chave da Places NÃO vive aqui: mora no serviço central, e a página só aponta
+     pelo data-avaliacoes (com o place_id exato). ⚠️ NUNCA aggregateRating no JSON-LD. -->
+<section class="prova" id="avaliacoes" data-avaliacoes="{{AVALIACOES_URL}}">
+  <div class="prova__env">
+    <div class="prova__resumo">
+      <p class="etiqueta">Avaliações no Google</p>
+      <p class="prova__nota"><b id="prova-media">{{NOTA_GOOGLE}}</b>
+        <span class="prova__estrelas" aria-hidden="true">
+          <svg width="18" height="18"><use href="#ico-estrela"></use></svg>
+          <svg width="18" height="18"><use href="#ico-estrela"></use></svg>
+          <svg width="18" height="18"><use href="#ico-estrela"></use></svg>
+          <svg width="18" height="18"><use href="#ico-estrela"></use></svg>
+          <svg width="18" height="18"><use href="#ico-estrela"></use></svg>
+        </span></p>
+      <p class="prova__total">em <b id="prova-total">{{TOTAL_GOOGLE}}</b> avaliações
+        de pacientes no Perfil do Google</p>
+      <a class="botao botao--zap" href="{{ZAP}}" data-origem="avaliacoes"
+         target="_blank" rel="noopener">
+        <svg width="18" height="18"><use href="#ico-zap"></use></svg>Agendar consulta</a>
+      <a class="link-discreto" href="https://www.google.com/maps?cid={{CID_GOOGLE}}"
+         target="_blank" rel="noopener" data-ir="google">Ler as avaliações no Google →</a>
+    </div>
+    <div class="prova__trilho" id="prova-trilho"></div>
+  </div>
+  <div class="prova__barra" aria-hidden="true"><span id="prova-pos"></span></div>
+  <p class="prova__credito">Avaliações publicadas por pacientes no Perfil do
+    {{NOME}} no Google. Fornecido pelo Google.</p>
+  <script type="application/json" id="prova-semente">{{SEMENTE}}</script>
+</section>
+
+<!-- ═══════════════ 8 · PERGUNTAS ═══════════════ -->
+<section class="faq" id="duvidas">
+  <div class="faq__env">
+    <div class="faq__cabeca">
+      <p class="etiqueta">Perguntas frequentes</p>
+      <h2>O que a recepção responde todo dia.</h2>
+      <a class="botao botao--zap" href="{{ZAP}}" data-origem="duvidas"
+         target="_blank" rel="noopener">
+        <svg width="18" height="18"><use href="#ico-zap"></use></svg>Minha dúvida não está aqui</a>
+    </div>
+    <div class="faq__lista">{{FAQ_HTML}}</div>
+  </div>
+</section>
+
+<!-- ═══════════════ 9 · ONDE E QUANDO ═══════════════
+     O iframe do Google NÃO vai no HTML: o JS injeta quando a pessoa se aproxima (nunca por tempo). -->
+<section class="onde" id="onde">
+  <div class="onde__env">
+    <div class="onde__info">
+      <p class="etiqueta">Onde e quando</p>
+      <h2>{{ONDE_HEAD}}</h2>
+      <address>
+        <b>{{NOME}}</b><br>
+        {{ENDERECO_RUA}} — {{ENDERECO_BAIRRO}}<br>
+        {{ENDERECO_CIDADE}}/{{ENDERECO_UF}}, {{ENDERECO_CEP}}
+        <span class="onde__ref">{{ENDERECO_REFERENCIA}}</span>
+      </address>
+      <dl class="horarios">{{HORARIOS_HTML}}</dl>
+      <p class="onde__obs">Agendamento pelo WhatsApp <span class="nw">{{ZAP_FMT}}</span> · recepção <span class="nw">{{TEL_FMT}}</span>.</p>
+      <a class="botao botao--zap" href="{{ZAP}}" data-origem="onde"
+         target="_blank" rel="noopener">
+        <svg width="18" height="18"><use href="#ico-zap"></use></svg>Confirmar um horário</a>
+    </div>
+    <div class="mapa" id="mapa"
+         data-mapa="https://www.google.com/maps?q={{MAPA_Q}}&amp;output=embed">
+      <div class="mapa__vazio" id="mapa-vazio">
+        <span class="mapa__pino" aria-hidden="true"></span>
+        <b>{{NOME}}</b>
+        <span>{{ENDERECO_RUA}} — {{ENDERECO_BAIRRO}}</span>
+        <span>{{ENDERECO_CIDADE}}/{{ENDERECO_UF}}</span>
+      </div>
+      <a class="mapa__abrir" target="_blank" rel="noopener" data-ir="mapa"
+         href="https://www.google.com/maps/dir/?api=1&amp;destination={{MAPA_Q}}">Traçar rota no Google Maps →</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════ 10 · RODAPÉ ═══════════════
+     CFM 2.336/2023, art. 5º: o estabelecimento e a diretora técnica, com CRM e RQE, em local visível. -->
+<footer class="rodape">
+  <div class="rodape__env">
+    <!-- a versão vertical do manual, em creme (a página 9 do manual: o logo sobre o verde-escuro) -->
+    <img class="rodape__logo" src="../assets/img/{{LOGO_RODAPE}}" width="{{LOGO_RODAPE_W}}" height="{{LOGO_RODAPE_H}}"
+         loading="lazy" decoding="async" alt="{{LOGO_RODAPE_ALT}}">
+    <div class="rodape__dados">
+      <b class="rodape__nome">{{NOME}} · {{ESPECIALIDADE_NOME}}</b>
+      <p>{{RODAPE_LEGAL}}</p>
+      <p>{{ENDERECO_LINHA}}</p>
+      <!-- telefone nunca quebra no hífen; no celular cada número vai numa linha (erro 5c: o "·" pendurado) -->
+      <p class="rodape__contato"><span class="nw">WhatsApp <a href="{{ZAP}}" data-origem="rodape-numero" target="_blank" rel="noopener">{{ZAP_FMT}}</a></span><span class="rodape__sep"> · </span><span class="nw">Recepção <a href="tel:+{{TEL}}" data-ir="ligar-rodape">{{TEL_FMT}}</a></span><br>
+         <a href="mailto:{{EMAIL}}" data-ir="email">{{EMAIL}}</a></p>
+    </div>
+    <div class="rodape__acoes">
+      <a class="botao botao--zap" href="{{ZAP}}" data-origem="rodape"
+         target="_blank" rel="noopener">
+        <svg width="18" height="18"><use href="#ico-zap"></use></svg>Agendar consulta</a>
+      <a class="ico-link" href="{{INSTAGRAM}}" target="_blank" rel="noopener"
+         data-ir="instagram-rodape" aria-label="Instagram do {{NOME}}">
+        <svg width="20" height="20"><use href="#ico-insta"></use></svg></a>
+    </div>
+  </div>
+  <p class="rodape__aviso">
+    {{RODAPE_AVISO}}</p>
+  <p class="rodape__atualizado">Página atualizada em <time datetime="{{ATUALIZADO}}">{{ATUALIZADO_TXT}}</time> · <a href="/privacidade/" data-ir="privacidade">Privacidade</a> · <span class="rodape__a11y"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4.2" r="2" fill="currentColor"/><path d="M4.5 8.2 12 9.6l7.5-1.4M12 9.6v4.6m0 0-3.2 7.2m3.2-7.2 3.2 7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>Página feita para ser acessível</span></p>
+</footer>
+
+<!-- Botão flutuante (desktop) e barra fixa (celular) — NUNCA os dois juntos. -->
+<a class="flutuante" id="flutuante" href="{{ZAP}}" data-origem="flutuante"
+   target="_blank" rel="noopener" aria-label="Agendar consulta pelo WhatsApp">
+  <svg width="32" height="32" aria-hidden="true"><use href="#ico-zap"></use></svg>
+  <span class="flutuante__rot">Agendar consulta</span></a>
+
+<div class="barra" id="barra">
+  <span class="barra__nota">Atendimento somente particular</span>
+  <a class="botao botao--zap botao--g" href="{{ZAP}}" data-origem="barra"
+     target="_blank" rel="noopener">
+    <svg width="20" height="20"><use href="#ico-zap"></use></svg>Agendar consulta</a>
+</div>
+
+<!-- Botão de pausa (WCAG 2.2.2, nível A): pequeno e discreto. Depois da .barra (o ~ do CSS sobe o botão com ela).
+     Para TUDO o que se move sozinho: animações CSS, vídeo em laço e o carrossel de avaliações (window.__pausado). -->
+<button class="pausa" id="pausa" type="button" aria-pressed="false" aria-label="Pausar animações da página" title="Pausar animações">
+  <svg viewBox="0 0 10 10" width="9" height="9" aria-hidden="true"><g class="pausa__ii"><rect x="1.6" y="1" width="2.4" height="8" rx=".5"/><rect x="6" y="1" width="2.4" height="8" rx=".5"/></g><path class="pausa__play" d="M2.4 1.1v7.8L8.6 5z"/></svg>
+</button>
+
+<!-- Aviso de cookies mínimo, com "Ok": só avisa — não bloqueia nem atrasa tag nenhuma. Aparece depois do load.
+     No celular fica no PÉ e sobe com a barra (doutrina 01-padrao §cookies): no alto ele cobria o botão da capa. -->
+<div class="aviso-cookies" id="aviso-cookies" role="region" aria-label="Aviso de cookies" hidden>
+  <p>Usamos cookies para personalizar conteúdos e melhorar a sua experiência. <a href="/privacidade/">Privacidade</a></p>
+  <button type="button" id="aviso-cookies-ok">Ok, entendi</button>
+</div>
+<script>(function(d,w){var K='lp_aviso_cookies',v='';try{v=w.localStorage.getItem(K)||'';}catch(e){}
+if(!v&&/(^|;\s*)lp_aviso_cookies=1/.test(d.cookie))v='1';if(v)return;
+w.addEventListener('load',function(){var a=d.getElementById('aviso-cookies');if(!a)return;a.hidden=false;
+d.getElementById('aviso-cookies-ok').addEventListener('click',function(){try{w.localStorage.setItem(K,'1');}catch(e){}
+d.cookie=K+'=1; max-age=31536000; path=/; SameSite=Lax';a.hidden=true;});});})(document,window);</script>
+<script src="../assets/js/pagina.js?v={{VER}}" defer></script>
+</body>
+</html>

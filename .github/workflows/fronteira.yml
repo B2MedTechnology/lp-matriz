@@ -1,0 +1,13 @@
+name: fronteira
+# Nada da GHOT Mídia nem da Focus Marketing na B2MedTechnology (regra da dona, 06-10-2026). Só roda no repositório da B2Med.
+on: [push, pull_request]
+jobs:
+  fronteira:
+    if: github.repository_owner == 'B2MedTechnology'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: python3 ferramentas/fronteira/verificar.py
+        env: { FRONTEIRA_SAL: '${{ secrets.LP_MATRIZ_SAL }}', FRONTEIRA_LISTA: '${{ secrets.FRONTEIRA_LISTA }}' }

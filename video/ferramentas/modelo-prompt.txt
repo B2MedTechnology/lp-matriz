@@ -1,0 +1,28 @@
+Create a premium, photorealistic, slow and seamless image-to-video transition using the two provided photographs as the exact visual reference.
+The first uploaded image is the START FRAME and the second uploaded image is the END FRAME.
+Preserve exactly the same {PESSOAS} throughout the entire video: same faces, facial features, hairstyles, facial hair, eyeglasses, body proportions, {ROUPA} and {ACESSORIOS}. Their identity and appearance must remain perfectly consistent with the reference photographs.
+The scene takes place in the same {AMBIENTE} with the same {FUNDO} and {LUZ}.
+Start exactly from the pose and composition of the first image.
+{PESSOAS_CURTO} remain in the same positions. They do NOT walk, change places or move toward the camera.
+Gradually and naturally transition their posture toward the pose shown in the second reference image.
+{GESTO_PESSOA_1}, until reaching the exact pose shown in the second image.
+{GESTO_PESSOA_2}, until reaching the exact pose shown in the second image.
+Their movements should feel calm, confident, sophisticated and realistic, like a professional {TIPO_DE_NEGOCIO} institutional film.
+Add extremely subtle human micro-movements only: natural breathing, slight posture adjustments, tiny head movement and minimal eye movement. Keep their expressions {EXPRESSAO}.
+Camera movement must be extremely smooth and restrained: a very slow cinematic push-in of approximately 3–5%, almost imperceptible, maintaining {PESSOAS_CURTO} completely visible and {POSICAO_NO_QUADRO} throughout the shot.
+No camera shake, no handheld movement, no fast zoom, no orbit, no dramatic perspective change.
+The animation must feel continuous and progressive rather than like a traditional video scene. Every intermediate frame should look visually polished because the video will be connected to website scroll progression and may pause at any moment.
+Motion should be slow, elegant and evenly distributed from beginning to end, with no sudden acceleration or abrupt gestures.
+Maintain realistic fabric physics on the {ROUPA} and natural arm and hand anatomy during the transition.
+Keep the {FUNDO} completely stable. No background movement or environmental changes.
+Do not introduce any additional people, furniture, objects, graphics, logos or text.
+No talking, no lip movement, no exaggerated facial expressions.
+No morphing of faces, hands or bodies.
+No changes to clothing colors or accessories.
+No artificial beauty retouching or CGI appearance.
+Preserve realistic skin texture and the original photographic look.
+Style: premium institutional photography, {ESTILO_DA_MARCA}, understated luxury, realistic {TIPO_DE_FILMAGEM} cinematography.
+Motion: extremely slow, fluid, controlled and scroll-friendly.
+Duration: approximately 8 seconds.
+Audio: none.
+Important: the final frame must closely match the second uploaded reference photograph, including body posture, hand position and overall composition.

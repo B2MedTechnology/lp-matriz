@@ -1,0 +1,888 @@
+{
+ "BASE": "https://www.exemplo.com.br",
+ "DOMINIO_DO_SITE": "exemplo.com.br",
+ "SUBDOMINIOS": {
+  "lp1.exemplo.com.br": "clinica-de-olhos-campinas",
+  "lp2.exemplo.com.br": "oftalmologista-campinas",
+  "lp3.exemplo.com.br": "oftalmologista-campinas-video",
+  "lp4.exemplo.com.br": "clinica-de-olhos-campinas-cena"
+ },
+ "CAMINHOS": {
+  "clinica-de-olhos-campinas": "/",
+  "oftalmologista-campinas": "/drafulana/",
+  "oftalmologista-campinas-video": "/drafulana-video/"
+ },
+ "HOST_PRINCIPAL": "www.exemplo.com.br",
+ "PREVIA_HOST": "clinica-exemplo.vercel.app",
+ "REDIRECIONAR_PREVIA": false,
+ "ANTIGOS_GREATPAGES": [],
+ "INDEXAR": false,
+ "CANONICA": "clinica-de-olhos-campinas",
+ "GTM_ID": "GTM-XXXXXXX",
+ "GTM_HEAD": "<link rel=\"preconnect\" href=\"https://www.googletagmanager.com\">\n<!-- Google Tag Manager (gerar.py → GTM_ID). Carrega logo depois que a imagem da capa pinta;\n     um toque, uma tecla ou 3,5 s adiantam. -->\n<script>(function(w,d,i){if(!/(^|\\.)institutohabibassafh\\.com$/i.test(w.location.hostname))return;w.dataLayer=w.dataLayer||[];var foi=0;\nfunction gtm(){if(foi)return;foi=1;w.dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});\nvar j=d.createElement('script');j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;d.head.appendChild(j);}\nfunction logo(){setTimeout(gtm,0);}\n['pointerdown','touchstart','keydown'].forEach(function(e){w.addEventListener(e,gtm,{once:true,passive:true,capture:true});});\nsetTimeout(gtm,3500);\nvar P=w.PerformanceObserver,lcp=P&&P.supportedEntryTypes&&P.supportedEntryTypes.indexOf('largest-contentful-paint')>-1;\nif(lcp){new P(function(l){l.getEntries().forEach(function(e){if(e.element&&e.element.getAttribute('fetchpriority')==='high')logo();});}).observe({type:'largest-contentful-paint',buffered:true});}\nelse d.addEventListener('DOMContentLoaded',function(){var img=d.querySelector('img[fetchpriority=\"high\"]');\nfunction pinta(){requestAnimationFrame(function(){requestAnimationFrame(logo);});}\nif(!img)pinta();else if(img.decode)img.decode().then(pinta,gtm);else if(img.complete)pinta();else img.addEventListener('load',pinta);});\n})(window,document,'[[ID]]');</script>\n<!-- Protocolo no 1º toque (27-09-2026, pedido da dona \"rastreamento 100%\"; bloco do Dr. Anselmo Rubim de 23-09). O GTM entra depois da\n     capa (ou no 1º toque, ou em 3,5 s): quem tocava no WhatsApp ANTES de ele carregar saía sem o protocolo, e o contato não\n     ligava ao clique do anúncio. Este script faz o mesmo que as tags 59 e 62 do GTM-XXXXXXX, só no instante do toque e só\n     se faltar: mesmo cookie (cookieIDUsuarioWhats, domínio .exemplo.com.br, 2 anos), mesmo alfabeto de 9 caracteres\n     (ao menos uma letra) e a mesma frase, depois de uma linha em branco. Com o GTM já carregado, a tag 62 vê a frase e não\n     mexe. Todo botão abre em aba nova: a página segue aberta e o GTM grava a visita. Só roda no domínio do instituto. -->\n<script>(function(d,l){if(!/(^|\\.)institutohabibassafh\\.com$/i.test(l.hostname))return;\nvar N='cookieIDUsuarioWhats',F='Protocolo para atendimento Priorit\\u00e1rio:',A='23456789ABCDEFGHJKMNPQRSTUVWXYZ',\nH=['wa.me','api.whatsapp.com','web.whatsapp.com'];\nvar ler=function(){var p=d.cookie?d.cookie.split(/;\\s*/):[];for(var i=0;i<p.length;i++){var e=p[i].indexOf('=');\nif(e>-1&&p[i].slice(0,e)===N){var v=p[i].slice(e+1);if(v&&v!=='undefined'&&v!=='null')return v;}}return '';};\nvar novo=function(){var c=window.crypto||window.msCrypto,b=new Uint8Array(1),s='',t=0;\nwhile(s.length<9&&t<500){t++;var x;if(c&&c.getRandomValues){c.getRandomValues(b);x=b[0];if(x>=248)continue;}else{x=Math.floor(Math.random()*248);}\ns+=A.charAt(x%31);}if(!/[A-Z]/.test(s))s=s.slice(0,8)+'K';return s;};\nvar garantir=function(){var id=ler();if(id)return id;id=novo();var v=new Date();v.setTime(v.getTime()+63072000000);\nd.cookie=N+'='+id+'; expires='+v.toUTCString()+'; path=/; domain=.exemplo.com.br';return ler()||id;};\nvar RE=/Protocolo para atendimento Priorit\\u00e1rio:\\s*[0-9A-Za-z_]*/;\nvar ajustar=function(ev){var a=ev.target&&ev.target.closest?ev.target.closest('a[href]'):null;if(!a)return;var u;\ntry{u=new URL(a.href);}catch(e){return;}if(H.indexOf(u.hostname)<0)return;var id=garantir();if(!id)return;\nvar t=u.searchParams.get('text')||'',n=RE.test(t)?t.replace(RE,F+' '+id):(t?t+'\\n\\n':'')+F+' '+id;\nif(n!==t){u.searchParams.set('text',n);a.href=u.toString();}};\n['pointerdown','touchstart','mousedown','click','auxclick','keydown'].forEach(function(e){d.addEventListener(e,ajustar,{capture:true,passive:true});});\n})(document,location);</script>",
+ "GTM_BODY": "",
+ "NOME": "Clínica de Olhos Aurora",
+ "MARCA_LINHA": "Oftalmologia · Centro de Campinas",
+ "RAZAO_SOCIAL": "Clínica de Olhos Aurora Ltda",
+ "CNPJ": "00.000.000/0000-00",
+ "DIRETORA": "Dra. Heloísa Figueiral",
+ "DIRETORA_NOME": "Heloísa Figueiral",
+ "CRM": "CRM-SP 000000",
+ "RQE": "RQE 00000",
+ "CRM_INSTITUTO": null,
+ "ENDERECO_RUA": "Rua Exemplo, 100",
+ "ENDERECO_BAIRRO": "Centro",
+ "ENDERECO_CIDADE": "Campinas",
+ "ENDERECO_UF": "SP",
+ "ENDERECO_CEP": "13010-000",
+ "ENDERECO_REFERENCIA": "Em frente à praça central",
+ "ENDERECO_UMA_LINHA": "Rua Exemplo, 100 - Centro, Campinas - AM, 13010-000",
+ "WHATSAPP": "5500000000000",
+ "ZAP_FMT": "(00) 00000-0000",
+ "TELEFONE": "5500000000000",
+ "TEL_FMT": "(00) 00000-0000",
+ "MENSAGEM": "Olá! Vim pelo site e gostaria de agendar uma consulta particular na Clínica de Olhos Aurora.",
+ "ZAP": "https://wa.me/5500000000000?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20particular%20no%20Instituto%20Fulana%20de Tal.",
+ "INSTAGRAM": "https://www.instagram.com/clinicadeolhosexemplo/",
+ "SITE_ATUAL": "https://www.exemplo.com.br/",
+ "EMAIL": "contato@exemplo.com.br",
+ "GEO": {
+  "__t": [
+   -22.9056,
+   -47.0608
+  ]
+ },
+ "EXCECOES": {"avaliacoes": "cliente fictício, sem Perfil do Google"},
+ "PLACE_ID": "",
+ "CID_GOOGLE": "",
+ "HORARIOS": [
+  {
+   "__t": [
+    "Segunda a sexta",
+    "8h às 17h"
+   ]
+  },
+  {
+   "__t": [
+    "Sábado",
+    "8h às 16h"
+   ]
+  },
+  {
+   "__t": [
+    "Domingo",
+    "fechado"
+   ]
+  }
+ ],
+ "HORARIOS_LD": [
+  {
+   "__t": [
+    [
+     "Monday",
+     "Tuesday",
+     "Wednesday",
+     "Thursday",
+     "Friday"
+    ],
+    "08:00",
+    "17:00"
+   ]
+  },
+  {
+   "__t": [
+    [
+     "Saturday"
+    ],
+    "08:00",
+    "16:00"
+   ]
+  }
+ ],
+ "REVISADO_PELO_MEDICO": null,
+ "INDEXNOW_CHAVE": "00000000000000000000000000000000",
+ "MESES": [
+  "janeiro",
+  "fevereiro",
+  "março",
+  "abril",
+  "maio",
+  "junho",
+  "julho",
+  "agosto",
+  "setembro",
+  "outubro",
+  "novembro",
+  "dezembro"
+ ],
+ "AVALIACOES_SERVICO": "",
+ "NOTA_GOOGLE": "4,9",
+ "TOTAL_GOOGLE": "87",
+ "AVALIACOES_SEMENTE": [
+  {
+   "nome": "Paciente A.",
+   "foto": "",
+   "nota": 5,
+   "quando": "um mês atrás",
+   "data": "2026-08-12",
+   "link": "",
+   "texto": "Atendimento pontual e explicação clara de cada exame. Saí sabendo exatamente o que fazer."
+  },
+  {
+   "nome": "Paciente B.",
+   "foto": "",
+   "nota": 5,
+   "quando": "2 meses atrás",
+   "data": "2026-07-20",
+   "link": "",
+   "texto": "Fiz a cirurgia de catarata e voltei a ler sem óculos de perto. Equipe muito atenciosa."
+  },
+  {
+   "nome": "Paciente C.",
+   "foto": "",
+   "nota": 5,
+   "quando": "3 meses atrás",
+   "data": "2026-06-15",
+   "link": "",
+   "texto": "Consultório organizado, recepção gentil e a médica explicou tudo com calma."
+  }
+ ],
+ "NUMEROS": [
+  {
+   "__t": [
+    "5,0",
+    "",
+    "no Google, em<br>111 avaliações"
+   ]
+  },
+  {
+   "__t": [
+    "40",
+    "+",
+    "municípios do interior<br>em jornadas cirúrgicas"
+   ]
+  },
+  {
+   "__t": [
+    "100",
+    "%",
+    "atendimento<br>particular"
+   ]
+  },
+  {
+   "__t": [
+    "Sábado",
+    "",
+    "também atende:<br>das 8h às 16h"
+   ]
+  },
+  {
+   "__t": [
+    "OCT",
+    "",
+    "tomografia da retina<br>no instituto"
+   ]
+  },
+  {
+   "__t": [
+    "Premium",
+    "",
+    "lentes intraoculares<br>tóricas, EDOF e multifocais"
+   ]
+  },
+  {
+   "__t": [
+    "Centro",
+    "",
+    "de Campinas, na<br>Rua Exemplo"
+   ]
+  }
+ ],
+ "QUEM_HEAD": "Por que os pacientes escolhem a Clínica de Olhos Aurora.",
+ "MOTIVOS": [
+  {
+   "__t": [
+    "Consulta sem pressa",
+    "Tempo para ouvir o que incomoda, examinar com calma e explicar o diagnóstico em palavras simples, antes de qualquer decisão."
+   ]
+  },
+  {
+   "__t": [
+    "Exames no próprio instituto",
+    "OCT, retinografia, topografia e biometria são feitos aqui, com a orientação da equipe no preparo e o resultado explicado com calma."
+   ]
+  },
+  {
+   "__t": [
+    "Cirurgia planejada para cada olho",
+    "Na catarata e no pterígio, os exames do seu olho orientam a técnica — e, na catarata, a escolha da lente intraocular."
+   ]
+  },
+  {
+   "__t": [
+    "Cuidado contínuo",
+    "Retornos marcados e contato direto com a equipe no pós-operatório, para tirar as dúvidas de cada fase da recuperação."
+   ]
+  }
+ ],
+ "CORPO_LEAD": "A equipe médica do instituto, com a fundadora, Dra. Heloísa Figueiral, na direção técnica.",
+ "CORPO_CLINICO": [
+  {
+   "id": "fulana-de-tal",
+   "nome": "Dra. Heloísa Figueiral",
+   "cargo": "Fundadora e diretora técnica",
+   "area": "Cirurgia de catarata e de pterígio, consulta oftalmológica",
+   "crm": "CRM-SP 000000",
+   "rqe": "RQE 00000",
+   "saberes": [
+    "Oftalmologia",
+    "Cirurgia de catarata",
+    "Cirurgia de pterígio",
+    "Lentes intraoculares"
+   ],
+   "foto": "medica-heloisa",
+   "alt": "Dra. Heloísa Figueiral, oftalmologista, na sala de exames do instituto"
+  },
+  {
+   "id": "marisol-quaresma",
+   "nome": "Dra. Marisol Quaresma",
+   "cargo": "Oftalmologista",
+   "area": "Oftalmologia pediátrica e estrabismo",
+   "crm": "CRM-SP 000000",
+   "rqe": "RQE 00000",
+   "saberes": [
+    "Oftalmologia",
+    "Oftalmologia pediátrica",
+    "Estrabismo"
+   ],
+   "foto": "medica-marisol",
+   "alt": "Dra. Marisol Quaresma, oftalmologista, sorrindo, com um oftalmoscópio de capa infantil na mão"
+  },
+  {
+   "id": "teodora-valadao",
+   "nome": "Dra. Teodora Valadão",
+   "cargo": "Oftalmologista",
+   "area": "Oftalmologia geral e cirurgia refrativa",
+   "agenda": "Terça, quinta e sexta, das 13h30 às 16h (exceto na última terça do mês)",
+   "crm": null,
+   "rqe": null,
+   "saberes": [
+    "Oftalmologia",
+    "Cirurgia refrativa"
+   ],
+   "foto": "medica-teodora",
+   "alt": "Dra. Teodora Valadão, oftalmologista, de jaleco branco, com a lâmpada de fenda e a tabela de letras ao fundo"
+  },
+  {
+   "id": "otavio-brandini",
+   "nome": "Dr. Otávio Brandini",
+   "cargo": "Oftalmologista",
+   "area": "Oftalmologia geral e oculoplástica",
+   "agenda": "Terça e sábado, das 8h às 12h",
+   "crm": "CRM-SP 000000",
+   "rqe": "RQE 00000",
+   "saberes": [
+    "Oftalmologia",
+    "Oculoplástica"
+   ],
+   "foto": "medico-otavio",
+   "alt": "Dr. Otávio Brandini, oftalmologista, de terno cinza, em retrato de perfil"
+  }
+ ],
+ "ICONES": {
+  "lio": "<circle cx=\"12\" cy=\"12\" r=\"4.8\"/><path d=\"M8.4 8.8C6.2 7.2 5.8 5 7.2 3.4\"/><path d=\"M15.6 15.2c2.2 1.6 2.6 3.8 1.2 5.4\"/>",
+  "pterigio": "<path d=\"M2.8 12c2.4-4 5.6-6 9.2-6s6.8 2 9.2 6c-2.4 4-5.6 6-9.2 6s-6.8-2-9.2-6z\"/><circle cx=\"12.6\" cy=\"12\" r=\"2.6\"/><path d=\"M3.8 12 9.4 10.4v3.2z\"/>",
+  "laser": "<path d=\"M3.4 20.6 11 13\"/><circle cx=\"13.8\" cy=\"10.2\" r=\"2.2\"/><path d=\"M13.8 4.2v1.6\"/><path d=\"M19.8 10.2h-1.6\"/><path d=\"M18 6l-1.1 1.1\"/>",
+  "refrator": "<circle cx=\"7\" cy=\"13.4\" r=\"3.6\"/><circle cx=\"17\" cy=\"13.4\" r=\"3.6\"/><path d=\"M10.6 13.4h2.8\"/><path d=\"M12 9.8V4.4\"/><path d=\"M8.4 4.4h7.2\"/>",
+  "pressao": "<path d=\"M12 3.2c2.6 3 4.2 5.4 4.2 7.6a4.2 4.2 0 0 1-8.4 0c0-2.2 1.6-4.6 4.2-7.6z\"/><path d=\"M8.4 17.6h7.2\"/><path d=\"M5.4 20.6h13.2\"/>",
+  "retina": "<circle cx=\"12\" cy=\"12\" r=\"8.6\"/><circle cx=\"14.6\" cy=\"11\" r=\"1.6\"/><path d=\"M13.2 10.2C10.8 8 8 7.6 5.6 8.6\"/><path d=\"M13.4 12.2C11.2 14.4 8.4 15.6 5.4 15.2\"/><path d=\"M16 11.8c1.4 1.8 1.8 3.8 1.2 6\"/>",
+  "biometria": "<path d=\"M12 4a8 8 0 0 0 0 16\"/><path d=\"M12 4c2.2 2.2 3.2 5 3.2 8s-1 5.8-3.2 8\"/><path d=\"M4 12h16\"/><path d=\"M18 10.4 20 12l-2 1.6\"/><path d=\"M6 10.4 4 12l2 1.6\"/>",
+  "topografia": "<circle cx=\"12\" cy=\"12\" r=\"8.6\"/><ellipse cx=\"12\" cy=\"12\" rx=\"5.8\" ry=\"4.6\"/><ellipse cx=\"12\" cy=\"12\" rx=\"2.8\" ry=\"1.8\"/>",
+  "oct": "<path d=\"M3.4 8.4c3-2 5.6-2 8.6 0s5.6 2 8.6 0\"/><path d=\"M3.4 12.4c3-2 5.6-2 8.6 0s5.6 2 8.6 0\"/><path d=\"M3.4 16.4c3-2 5.6-2 8.6 0s5.6 2 8.6 0\"/>"
+ },
+ "GRUPOS": [
+  {
+   "__t": [
+    "Cirurgias",
+    [
+     {
+      "__t": [
+       "Cirurgia de catarata",
+       "lio",
+       "O cristalino opaco dá lugar a uma lente intraocular, pela facoemulsificação. A lente, monofocal ou premium, é escolhida na avaliação.",
+       "lente intraocular · premium"
+      ]
+     },
+     {
+      "__t": [
+       "Cirurgia de pterígio",
+       "pterigio",
+       "A membrana que avança sobre a córnea é retirada, e o local recebe um enxerto da própria conjuntiva, fixado com cola biológica, sem pontos.",
+       "autoenxerto · cola biológica"
+      ]
+     },
+     {
+      "__t": [
+       "Laser YAG",
+       "laser",
+       "Capsulotomia para a opacidade que pode surgir depois da catarata e iridotomia na prevenção do glaucoma de ângulo fechado.",
+       "capsulotomia · iridotomia"
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "__t": [
+    "Consulta e acompanhamento",
+    [
+     {
+      "__t": [
+       "Consulta oftalmológica",
+       "refrator",
+       "Exame de vista, pressão do olho e avaliação das estruturas internas, com o resultado explicado na própria consulta.",
+       "exame de vista · pressão ocular"
+      ]
+     },
+     {
+      "__t": [
+       "Glaucoma",
+       "pressao",
+       "Costuma avançar sem sintomas. O controle usa tonometria, curva tensional e gonioscopia; o tratamento começa, em geral, com colírios.",
+       "tonometria · CTD · colírios"
+      ]
+     },
+     {
+      "__t": [
+       "Mapeamento de retina",
+       "retina",
+       "Exame do fundo do olho com a pupila dilatada. Indicado em diabetes, alta miopia e quando surgem manchas ou flashes de luz na visão.",
+       "fundo de olho · retina"
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "__t": [
+    "Exames no instituto",
+    [
+     {
+      "__t": [
+       "Exames para a catarata",
+       "biometria",
+       "Biometria, topografia, ultrassonografia e microscopia especular: as medidas que orientam a escolha da lente para cada olho.",
+       "biometria · kit catarata"
+      ]
+     },
+     {
+      "__t": [
+       "Topografia e paquimetria",
+       "topografia",
+       "Medem a curvatura e a espessura da córnea, para o diagnóstico do ceratocone e o planejamento de cirurgias e lentes.",
+       "córnea · ceratocone"
+      ]
+     },
+     {
+      "__t": [
+       "Retinografia e OCT",
+       "oct",
+       "Foto colorida da retina e tomografia das camadas da mácula e do nervo óptico: imagens para comparar a cada retorno.",
+       "retinografia · OCT"
+      ]
+     }
+    ]
+   ]
+  }
+ ],
+ "FOTOS_CARDS": {
+  "lio": "Lente intraocular segurada entre os dedos, em primeiro plano",
+  "pterigio": "Imagem ilustrativa de cirurgia na superfície do olho, com pinça e seringa",
+  "laser": "A lâmpada de fenda e o refrator da sala de exames",
+  "refrator": "Exame de vista no refrator, ajustado diante dos olhos da paciente",
+  "pressao": "Frasco de colírio segurado entre os dedos",
+  "retina": "Retinógrafo portátil encostado ao olho da paciente, com a imagem da retina na tela",
+  "biometria": "Tela do aparelho de medidas do olho, com a mão no controle",
+  "topografia": "Aparelho de medidas da córnea, com a imagem do olho na tela",
+  "oct": "Imagem colorida da retina na tela do retinógrafo, com o monitor ao fundo"
+ },
+ "FILTRO": "Não atendemos convênio nem plano de saúde — nenhum. É essa escolha que permite agenda com tempo, exames no próprio instituto e cada etapa explicada até você entender.",
+ "PASSOS": [
+  {
+   "__t": [
+    "Atendimento somente particular",
+    true,
+    "Não atendemos convênio nem plano de saúde — nenhum. É essa escolha que permite agenda com tempo, exames no próprio instituto e cada etapa explicada até você entender."
+   ]
+  },
+  {
+   "__t": [
+    "Agendamento pelo WhatsApp",
+    false,
+    "A equipe entende a sua queixa, orienta o preparo e reserva o horário. Quem vem do interior pode combinar o dia com antecedência."
+   ]
+  },
+  {
+   "__t": [
+    "Recepção e preparo",
+    false,
+    "Cadastro e, quando o exame pede, o colírio que dilata a pupila. Nesse caso a visão fica embaçada por algumas horas: venha acompanhado e não dirija na volta."
+   ]
+  },
+  {
+   "__t": [
+    "Consulta e exames",
+    false,
+    "Exame de vista, pressão do olho e avaliação das estruturas internas. Os exames complementares são feitos no instituto, e o resultado é explicado com calma."
+   ]
+  },
+  {
+   "__t": [
+    "O plano de cuidado",
+    false,
+    "Receita, colírios, retorno ou a indicação de cirurgia — com o planejamento e o pós-operatório acompanhados pela mesma equipe."
+   ]
+  }
+ ],
+ "ESPACO": [
+  {
+   "__t": [
+    "espaco-sala-exames",
+    "A sala de exames, com o refrator e a lâmpada de fenda"
+   ]
+  },
+  {
+   "__t": [
+    "espaco-refracao",
+    "O exame de vista no refrator"
+   ]
+  },
+  {
+   "__t": [
+    "espaco-consultorio",
+    "O consultório"
+   ]
+  },
+  {
+   "__t": [
+    "espaco-exames-complementares",
+    "A sala dos exames complementares"
+   ]
+  },
+  {
+   "__t": [
+    "espaco-consulta",
+    "A consulta, com a imagem da retina no monitor"
+   ]
+  }
+ ],
+ "SALA_HEAD": "Um espaço criado para cuidar de você com calma, precisão e conforto.",
+ "SALA_TEXTO": "Nosso espaço foi planejado no Centro de Campinas para oferecer conforto e acessibilidade a todos os pacientes. Contamos com um consultório moderno e climatizado, equipado com tecnologia para a realização de exames especializados de diagnóstico no mesmo local. Aqui, você encontra um atendimento pontual, ético e focado em uma experiência segura e humanizada.",
+ "FAQ": [
+  {
+   "__t": [
+    "A Clínica de Olhos Aurora atende convênio ou plano de saúde?",
+    "Não atendemos convênio nem plano de saúde — nenhum. É essa escolha que permite agenda com tempo, exames no próprio instituto e cada etapa explicada até você entender. O valor da consulta é informado pelo WhatsApp antes do agendamento, para você decidir com o número na mão."
+   ]
+  },
+  {
+   "__t": [
+    "Onde fica o instituto?",
+    "Na Rua Exemplo, 100, no Centro de Campinas (CEP 13010-000), entre a oficina dos óculos e a distribuidora Thiago."
+   ]
+  },
+  {
+   "__t": [
+    "Quais são os dias e horários de atendimento?",
+    "De segunda a sexta, das 8h às 17h, e aos sábados, das 8h às 16h. O agendamento é feito pelo WhatsApp (00) 00000-0000; a recepção atende no (00) 00000-0000."
+   ]
+  },
+  {
+   "__t": [
+    "O exame de vista é feito na consulta?",
+    "Sim. O exame de vista — a refração, que define o grau dos óculos — faz parte da consulta oftalmológica, junto com a medida da pressão do olho e a avaliação das estruturas internas. O grau e a saúde dos olhos são vistos no mesmo atendimento."
+   ]
+  },
+  {
+   "__t": [
+    "A consulta dilata a pupila? Posso dirigir depois?",
+    "Nem toda consulta dilata. Quando o exame do fundo de olho pede o colírio, a visão fica embaçada e sensível à luz por algumas horas: venha acompanhado e não dirija na volta."
+   ]
+  },
+  {
+   "__t": [
+    "A cirurgia de catarata é feita a laser?",
+    "A técnica usada é a facoemulsificação: o cristalino opaco é fragmentado por ultrassom, por uma incisão mínima, e uma lente intraocular é implantada no lugar. O laser YAG pode entrar depois, se a cápsula que sustenta a lente ficar opaca — é um procedimento rápido e sem corte."
+   ]
+  },
+  {
+   "__t": [
+    "Quantos dias de repouso depois da cirurgia de catarata?",
+    "Nos primeiros dias, o cuidado é com os colírios nos horários certos, o protetor para dormir e não coçar o olho, além de evitar esforço, piscina e poeira. Atividades leves costumam voltar em poucos dias; dirigir, trabalhar e fazer exercício são liberados nas consultas de revisão, conforme a recuperação de cada olho."
+   ]
+  },
+  {
+   "__t": [
+    "O que é pterígio e quando a cirurgia é indicada?",
+    "É uma membrana que cresce da parte branca do olho em direção à córnea, associada à exposição ao sol, ao vento e à poeira, e pode causar vermelhidão, ardor e sensação de areia. A cirurgia é indicada quando ele cresce, incomoda ou ameaça a visão; no instituto, é feita com autoenxerto de conjuntiva fixado por cola biológica, sem pontos."
+   ]
+  },
+  {
+   "__t": [
+    "O glaucoma dá sintomas?",
+    "Na maioria dos casos, não no início: a pressão do olho pode lesar o nervo óptico sem dor e sem embaçar a visão. Por isso a medida da pressão e o exame do nervo fazem parte da consulta de rotina, principalmente depois dos 40 anos ou com casos na família."
+   ]
+  },
+  {
+   "__t": [
+    "O instituto atende crianças?",
+    "Sim. A Dra. Marisol Quaresma atende oftalmologia pediátrica e estrabismo: o exame de vista da criança, a indicação de óculos e o acompanhamento do olho que desvia. O dia do atendimento é combinado pelo WhatsApp."
+   ]
+  },
+  {
+   "__t": [
+    "Vocês fazem cirurgia refrativa, para miopia, astigmatismo ou hipermetropia?",
+    "A Dra. Teodora Valadão atende oftalmologia geral e cirurgia refrativa. Se o seu olho pode ser operado, e com qual técnica, depende dos exames da córnea, como a topografia e a paquimetria, feitos no próprio instituto. A resposta vem na avaliação com ela."
+   ]
+  },
+  {
+   "__t": [
+    "O instituto atende urgência?",
+    "O atendimento é com hora marcada, de segunda a sábado. Se houver dor forte, trauma no olho ou perda súbita da visão, fale com a equipe pelo WhatsApp logo que puder; fora do horário, procure um pronto-socorro."
+   ]
+  },
+  {
+   "__t": [
+    "Preciso de encaminhamento para a consulta?",
+    "Não. O atendimento é particular: você agenda direto, sem encaminhamento e sem autorização de plano."
+   ]
+  }
+ ],
+ "BAIRROS": [
+  "Centro",
+  "Cambuí",
+  "Guanabara",
+  "Taquaral",
+  "Bosque",
+  "Botafogo",
+  "Castelo",
+  "Nova Campinas",
+  "Jardim Chapadão",
+  "Barão Geraldo"
+ ],
+ "PADRAO_PAGINA": {
+  "ASSINA_NOME": "Clínica de Olhos Aurora",
+  "ASSINA_LINHA": "Oftalmologia · Centro de Campinas",
+  "QUEM_ETIQUETA": "Por que o instituto",
+  "QUEM_HEAD": "Por que os pacientes escolhem a Clínica de Olhos Aurora.",
+  "QUEM_BIO": "",
+  "CONSULTA_HEAD": "Da marcação ao pós-operatório, com a mesma equipe.",
+  "OG_IMAGEM": "og.jpg",
+  "OG_ALT": "A Dra. Heloísa Figueiral faz o exame de retina com o retinógrafo portátil, na sala de exames da Clínica de Olhos Aurora",
+  "_MOTIVOS": [
+   {
+    "__t": [
+     "Consulta sem pressa",
+     "Tempo para ouvir o que incomoda, examinar com calma e explicar o diagnóstico em palavras simples, antes de qualquer decisão."
+    ]
+   },
+   {
+    "__t": [
+     "Exames no próprio instituto",
+     "OCT, retinografia, topografia e biometria são feitos aqui, com a orientação da equipe no preparo e o resultado explicado com calma."
+    ]
+   },
+   {
+    "__t": [
+     "Cirurgia planejada para cada olho",
+     "Na catarata e no pterígio, os exames do seu olho orientam a técnica — e, na catarata, a escolha da lente intraocular."
+    ]
+   },
+   {
+    "__t": [
+     "Cuidado contínuo",
+     "Retornos marcados e contato direto com a equipe no pós-operatório, para tirar as dúvidas de cada fase da recuperação."
+    ]
+   }
+  ],
+  "_QUEM_FOTO": {
+   "__t": [
+    "instituto-equipe",
+    "A Dra. Heloísa Figueiral e a equipe de atendimento, na sala de exames do instituto"
+   ]
+  },
+  "_PERFIL": "instituto"
+ },
+ "MEDICA_BIO": "Oftalmologista (<span class=\"nw\">CRM-SP 000000</span> · <span class=\"nw\">RQE 00000</span>), fundadora e diretora técnica da Clínica de Olhos Aurora, no Centro de Campinas. A atuação cirúrgica é focada nas microcirurgias de catarata e de pterígio, com a experiência da clínica particular e de jornadas cirúrgicas oftalmológicas em mais de 40 municípios do interior de São Paulo.",
+ "MEDICA_MOTIVOS": [
+  {
+   "__t": [
+    "Consulta sem pressa",
+    "A Dra. Fulana avalia a sua visão com calma e explica o diagnóstico em palavras simples, antes de qualquer decisão."
+   ]
+  },
+  {
+   "__t": [
+    "Exames no próprio instituto",
+    "OCT, retinografia, topografia e biometria são feitos no instituto, com a orientação da equipe no preparo e o resultado explicado com calma."
+   ]
+  },
+  {
+   "__t": [
+    "Cirurgia planejada para cada olho",
+    "Na catarata e no pterígio, a Dra. Fulana planeja a técnica com os exames do seu olho — e, na catarata, a escolha da lente intraocular."
+   ]
+  },
+  {
+   "__t": [
+    "Cuidado contínuo",
+    "Retornos marcados e contato direto com a equipe da Dra. Fulana no pós-operatório, para tirar as dúvidas de cada fase da recuperação."
+   ]
+  }
+ ],
+ "MENSAGEM_MEDICA": "Olá! Vim pelo site e gostaria de agendar uma consulta particular com a Dra. Heloísa Figueiral.",
+ "VARIANTES": {
+  "clinica-de-olhos-campinas": {
+   "TERMO": "Clínica de olhos",
+   "CAPA_CLASSE": " capa--exame",
+   "H1_HTML": "Clínica oftalmológica<br>no Centro de&nbsp;<em>Campinas</em>",
+   "TITLE": "Clínica de Olhos em Campinas | Clínica de Olhos Aurora",
+   "DESCRICAO": "Clínica de olhos no Centro de Campinas: oftalmologista para consulta particular, exames como OCT e mapeamento de retina e cirurgia de catarata e pterígio.",
+   "LEAD": "Volte a ler e a usar o celular sem o incômodo da visão embaçada. Avaliação oftalmológica rápida, com suporte e facilidade em cada etapa."
+  },
+  "oftalmologista-campinas": {
+   "TERMO": "Oftalmologista",
+   "H1_HTML": "Oftalmologista<br>no Centro de&nbsp;<em>Campinas</em>",
+   "TITLE": "Oftalmologista em Campinas | Dra. Heloísa Figueiral",
+   "DESCRICAO": "Dra. Heloísa Figueiral, oftalmologista no Centro de Campinas: consulta particular, exames no instituto e cirurgia de catarata e pterígio.",
+   "LEAD": "Volte a ler e a usar o celular sem o incômodo da visão embaçada. Avaliação oftalmológica rápida, com suporte e facilidade em cada etapa.",
+   "ASSINA_NOME": "Dra. Heloísa Figueiral",
+   "ASSINA_LINHA": "Oftalmologista · CRM-SP 000000 · RQE 00000",
+   "QUEM_ETIQUETA": "A médica",
+   "QUEM_HEAD": "Por que os pacientes escolhem a Dra. Heloísa Figueiral.",
+   "QUEM_BIO": "<p>Oftalmologista (<span class=\"nw\">CRM-SP 000000</span> · <span class=\"nw\">RQE 00000</span>), fundadora e diretora técnica da Clínica de Olhos Aurora, no Centro de Campinas. A atuação cirúrgica é focada nas microcirurgias de catarata e de pterígio, com a experiência da clínica particular e de jornadas cirúrgicas oftalmológicas em mais de 40 municípios do interior de São Paulo.</p>",
+   "CONSULTA_HEAD": "Da marcação ao pós-operatório, com a Dra. Fulana.",
+   "OG_IMAGEM": "og-medica.jpg",
+   "OG_ALT": "A Dra. Heloísa Figueiral na sala de exames do instituto, ao lado da lâmpada de fenda e do refrator",
+   "_MOTIVOS": [
+    {
+     "__t": [
+      "Consulta sem pressa",
+      "A Dra. Fulana avalia a sua visão com calma e explica o diagnóstico em palavras simples, antes de qualquer decisão."
+     ]
+    },
+    {
+     "__t": [
+      "Exames no próprio instituto",
+      "OCT, retinografia, topografia e biometria são feitos no instituto, com a orientação da equipe no preparo e o resultado explicado com calma."
+     ]
+    },
+    {
+     "__t": [
+      "Cirurgia planejada para cada olho",
+      "Na catarata e no pterígio, a Dra. Fulana planeja a técnica com os exames do seu olho — e, na catarata, a escolha da lente intraocular."
+     ]
+    },
+    {
+     "__t": [
+      "Cuidado contínuo",
+      "Retornos marcados e contato direto com a equipe da Dra. Fulana no pós-operatório, para tirar as dúvidas de cada fase da recuperação."
+     ]
+    }
+   ],
+   "_QUEM_FOTO": {
+    "__t": [
+     "medica-heloisa-retrato",
+     "Dra. Heloísa Figueiral, oftalmologista, na sala de exames do instituto"
+    ]
+   },
+   "_PERFIL": "medica",
+   "_ZAP": "https://wa.me/5500000000000?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20particular%20com%20a%20Dra.%20Fulana%20de Tal.",
+   "_TROCAS": {
+    "corpo": "",
+    "abertura": "@cena_rolagem"
+   }
+  }
+ },
+ "CENA_HTML": "<!-- ═══════════════ 1 + 3 · A CENA: capa e o instituto sobre o vídeo que a ROLAGEM arrasta ═══════════════\n     Um palco fixo (sticky) com o vídeo atravessa as duas dobras; os textos rolam por cima, à esquerda.\n     É uma SEQUÊNCIA DE QUADROS num <canvas>, não o <video> arrastado: vídeo de IA tem um quadro-chave\n     em centenas, e cada busca decodificaria desde o começo. {{QUADROS_N}} quadros AVIF.\n     Sem JS: fica o 1º quadro parado e o texto inteiro visível. -->\n<section class=\"capa cena\" data-cena>\n  <div class=\"cena__palco\" aria-hidden=\"true\">\n    <picture>\n      <source media=\"(max-width: 900px) and (max-aspect-ratio: 3/5), (min-width: 901px) and (max-aspect-ratio: 159/100)\"\n              type=\"image/avif\" srcset=\"../assets/img/capa-video-movel.avif\" width=\"720\" height=\"720\">\n      <source type=\"image/avif\" srcset=\"../assets/img/capa-video.avif\" width=\"1280\" height=\"720\">\n      <img class=\"cena__poster\" src=\"../assets/img/capa-video.jpg\" width=\"1280\" height=\"720\"\n           fetchpriority=\"high\" decoding=\"async\" alt=\"\">\n    </picture>\n    <canvas class=\"cena__filme\" id=\"cena-filme\" data-total=\"{{QUADROS_N}}\"\n            data-quadros=\"../assets/video/cena/cena-{n}.avif?h={{QUADROS_H}}\"\n            data-quadros-movel=\"../assets/video/cena/movel-{n}.avif?h={{QUADROS_HM}}\"></canvas>\n    <span class=\"capa__veu\"></span>\n  </div>\n  <div class=\"cena__textos\">\n    <div class=\"cena__bloco cena__bloco--capa\" id=\"capa\">\n[[CAPA_TEXTO]]\n    </div>\n    <div class=\"cena__bloco cena__bloco--quem\" id=\"quem\">\n      <div class=\"cena__env\">\n[[QUEM_TEXTO]]\n      </div>\n    </div>\n  </div>\n</section>\n\n",
+ "CAPA_VIDEO": "<!-- ══ a capa em VÍDEO EM LAÇO (a variação da página da Dra. Fulana) ══\n           O poster é o 1º quadro do próprio vídeo e fica POR BAIXO: enquanto o vídeo não chega, se o play for recusado\n           (economia do iPhone) ou se o JS morrer, a dobra mostra a mesma cena parada. O vídeo NÃO baixa com a página: sem\n           autoplay e com preload=\"none\", começa no load ou no 1º gesto (pagina.js, 1b), e a volta do laço\n           dissolve entre duas cópias do mesmo arquivo (o último quadro é o close no aparelho; o primeiro, a consulta). -->\n      <picture>\n        <source type=\"image/avif\" srcset=\"../assets/img/capa-video.avif\">\n        <img class=\"capa__poster\" src=\"../assets/img/capa-video.jpg\" width=\"1280\" height=\"720\"\n             fetchpriority=\"high\" decoding=\"async\" alt=\"A Dra. Heloísa Figueiral explica um exame de retina a uma paciente, no consultório\">\n      </picture>\n      <video class=\"capa__video\" id=\"capa-video\" src=\"../assets/video/capa-medica.mp4\"\n             width=\"1280\" height=\"720\" muted loop playsinline preload=\"none\"\n             disablepictureinpicture disableremoteplayback aria-hidden=\"true\"></video>",
+ "TESTES": {
+  "oftalmologista-campinas-video": {
+   "base": "oftalmologista-campinas",
+   "trocas": {
+    "corpo": "",
+    "capa-midia": "<!-- ══ a capa em VÍDEO EM LAÇO (a variação da página da Dra. Fulana) ══\n           O poster é o 1º quadro do próprio vídeo e fica POR BAIXO: enquanto o vídeo não chega, se o play for recusado\n           (economia do iPhone) ou se o JS morrer, a dobra mostra a mesma cena parada. O vídeo NÃO baixa com a página: sem\n           autoplay e com preload=\"none\", começa no load ou no 1º gesto (pagina.js, 1b), e a volta do laço\n           dissolve entre duas cópias do mesmo arquivo (o último quadro é o close no aparelho; o primeiro, a consulta). -->\n      <picture>\n        <source type=\"image/avif\" srcset=\"../assets/img/capa-video.avif\">\n        <img class=\"capa__poster\" src=\"../assets/img/capa-video.jpg\" width=\"1280\" height=\"720\"\n             fetchpriority=\"high\" decoding=\"async\" alt=\"A Dra. Heloísa Figueiral explica um exame de retina a uma paciente, no consultório\">\n      </picture>\n      <video class=\"capa__video\" id=\"capa-video\" src=\"../assets/video/capa-medica.mp4\"\n             width=\"1280\" height=\"720\" muted loop playsinline preload=\"none\"\n             disablepictureinpicture disableremoteplayback aria-hidden=\"true\"></video>",
+    "capa-evento": ""
+   },
+   "CAPA_CLASSE": " capa--video"
+  },
+  "clinica-de-olhos-campinas-cena": {
+   "base": "clinica-de-olhos-campinas",
+   "trocas": {
+    "abertura": "@cena_rolagem"
+   },
+   "CAPA_CLASSE": ""
+  }
+ },
+ "SERVICOS": [
+  {
+   "__t": [
+    "DiagnosticProcedure",
+    "Consulta oftalmológica particular: exame de vista, tonometria, biomicroscopia e fundo de olho"
+   ]
+  },
+  {
+   "__t": [
+    "SurgicalProcedure",
+    "Cirurgia de catarata por facoemulsificação, com implante de lente intraocular"
+   ]
+  },
+  {
+   "__t": [
+    "SurgicalProcedure",
+    "Exérese de pterígio com autoenxerto conjuntival e cola biológica"
+   ]
+  },
+  {
+   "__t": [
+    "SurgicalProcedure",
+    "Cirurgia de calázio"
+   ]
+  },
+  {
+   "__t": [
+    "TherapeuticProcedure",
+    "Capsulotomia com YAG laser"
+   ]
+  },
+  {
+   "__t": [
+    "TherapeuticProcedure",
+    "Iridotomia a laser"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Mapeamento de retina"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Retinografia colorida"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Tomografia de coerência óptica (OCT) de disco e mácula"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Topografia de córnea"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Paquimetria ultrassônica"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Microscopia especular"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Biometria ultrassônica"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Ultrassonografia ocular"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Tonometria de aplanação"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Curva tensional diária (CTD)"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Teste de sobrecarga hídrica (TSH)"
+   ]
+  },
+  {
+   "__t": [
+    "MedicalTest",
+    "Gonioscopia"
+   ]
+  }
+ ],
+ "CONDICOES": [
+  "Catarata",
+  "Pterígio",
+  "Glaucoma",
+  "Calázio",
+  "Opacificação da cápsula posterior",
+  "Erros de refração",
+  "Doenças da retina",
+  "Ceratocone"
+ ],
+ "SABERES": [
+  "Oftalmologia",
+  "Cirurgia de catarata",
+  "Facoemulsificação",
+  "Lentes intraoculares",
+  "Lentes intraoculares tóricas",
+  "Lentes intraoculares EDOF",
+  "Lentes intraoculares multifocais",
+  "Cirurgia de pterígio",
+  "Autoenxerto conjuntival",
+  "Glaucoma",
+  "Capsulotomia com YAG laser",
+  "Iridotomia",
+  "Mapeamento de retina",
+  "Retinografia",
+  "Tomografia de coerência óptica",
+  "Topografia de córnea",
+  "Paquimetria",
+  "Microscopia especular",
+  "Biometria ocular",
+  "Ultrassonografia ocular",
+  "Tonometria",
+  "Gonioscopia",
+  "Calázio"
+ ],
+ "ALT_SUFIXO": "clínica de olhos em Campinas",
+ "RT_ROTULO": "Diretora técnica",
+ "ESPECIALIDADE_NOME": "Oftalmologia",
+ "CONSELHO_SIGLA_UF": "CRM-SP",
+ "DIRETOR_ID": "fulana-de-tal",
+ "CONSELHO_NOME": "Conselho Regional de Medicina do Estado de São Paulo",
+ "OFICIO": "oftalmologista",
+ "DIRETOR_CARGO": " e diretora técnica",
+ "JSONLD_DESCRICAO": "Clínica de olhos no Centro de Campinas: consulta oftalmológica particular, exames de diagnóstico e cirurgia de catarata e pterígio.",
+ "LOGO_PNG": "logo.png",
+ "AREAS_EXTRA": [
+  "Interior de São Paulo"
+ ],
+ "SITE_NOME_SUFIXO": "Clínica de olhos em Campinas",
+ "TIPO_ORG": "MedicalClinic",
+ "LOGO_ARQUIVO": "logo-horizontal.svg"
+}

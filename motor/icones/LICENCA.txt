@@ -1,0 +1,1 @@
+Ícones em *.svg: lucide-static 0.460.0 — ISC License, Copyright (c) Lucide Contributors (https://lucide.dev/license).

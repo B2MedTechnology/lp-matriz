@@ -1,0 +1,16 @@
+name: trava
+on: [push, pull_request]
+jobs:
+  anonimato-e-testes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install pillow==11.3.0 cryptography==44.0.2
+      - name: Trava de anonimato
+        env: { LP_MATRIZ_SAL: '${{ secrets.LP_MATRIZ_SAL }}', LP_MATRIZ_BLOQUEIO: '${{ secrets.LP_MATRIZ_BLOQUEIO }}' }
+        run: python3 ferramentas/anonimato.py
+      - name: Testes (gera o exemplo de ponta a ponta)
+        env: { LP_MATRIZ_SAL: '${{ secrets.LP_MATRIZ_SAL }}', LP_MATRIZ_BLOQUEIO: '${{ secrets.LP_MATRIZ_BLOQUEIO }}' }
+        run: python3 ferramentas/gerar-marcadores.py exemplos/clinica-exemplo && python3 testes/test_matriz.py
